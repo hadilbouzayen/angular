@@ -1,0 +1,17 @@
+<header>
+  <ng-container >
+    <app-add-form (bookadded)="pushBooks($event)"></app-add-form>
+
+<div class="holder">
+  <div class="books-holder">
+    <div class="" *ngFor="let book of addedBooks">
+
+     <app-book-card [bookTitle]="book.title" [bookdesc]="book.desc " [bookId]="book.id" ></app-book-card>
+   
+   </div> 
+ </div>
+<router-outlet></router-outlet>
+</div>
+  </ng-container>
+ </header>
+

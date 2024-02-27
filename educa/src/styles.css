@@ -1,0 +1,19 @@
+body{
+    width: calc(100vw - 17px);
+    padding: 25px;
+    margin: 0;
+    box-sizing: border-box;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+
+@media screen and (max-width: 768px) {
+    body{
+        width: calc(100vw - 2px);
+        padding: 25px;
+        margin: 0;
+        box-sizing: border-box;
+    }
+}

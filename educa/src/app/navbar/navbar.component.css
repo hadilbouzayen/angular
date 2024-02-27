@@ -1,0 +1,288 @@
+.nav-bar{
+width: 100%;
+margin-bottom: 10px;
+
+}
+.nav-toggle{
+    display: none;
+}
+.menu{
+    width: 100%;
+}
+.sub-menu{
+    width: 649px;
+height: 33px;
+}
+.sub-menu .elem{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #424D65;
+
+
+    }
+.partner{
+    width: 310px;
+    height: 33px;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #D0E5F2;
+    border-radius: 25px;
+
+}
+.partner .text{
+    
+width: 250px;
+height: 17px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 11px;
+
+
+text-align: center;
+text-transform: capitalize;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.partner .new-tag{
+    display: flex;
+justify-content: center;
+align-items: center;
+width: 48px;
+height: 23px;
+background: #FE5600;
+border-radius: 25px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+
+
+.button .login{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #424D65;
+}
+.button .signin{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+    height: 40px;
+    text-align: center;
+
+    color: #04A8FF;
+    background: #DEF4FE;
+    border-radius: 8px;
+
+}
+
+.smlogo{
+    display: none;
+
+}
+.nav-toggle{display: none;}
+
+
+/****************************************************************************************************************/
+/*******************************************************************************/
+/**************************************************************************************/
+
+@media screen and (max-width: 768px) {
+
+        .nav-bar{
+            width: 100%;
+            margin-bottom: 10px;
+            position: relative;
+            height: 40px;
+            
+            
+        }
+        .smlogo{
+            display: block;
+            position: absolute;
+            top: 0;
+            right: 0;
+            
+    
+        
+        }
+        .nav-toggle{
+            display: block;
+            height: 20px;
+            margin-bottom: 20px;
+        }
+
+         .menu{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            position: absolute;
+            z-index: 20;
+            height: 500px;
+            padding: 20px 0;
+        }
+
+        
+        .sub-menu{
+            width: 80vw;
+            height: fit-content;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            
+        }
+        .sub-menu .elem{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            color: #424D65;
+            padding: 15px 0;
+            border-bottom: solid 1px #424d65a6;
+        
+        
+            }
+        .partner{
+            width: 310px;
+            height: 50px;
+            padding: 15px 0;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            border: none;
+            border-radius: 0px;
+        
+        }
+        .partner .text{
+            
+        width: 250px;
+        height: 17px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 11px;
+        
+        
+        text-align: center;
+        text-transform: capitalize;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        }
+        .partner .new-tag{
+            display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 48px;
+        height: 23px;
+        background: #FE5600;
+        border-radius: 25px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 18px;
+        /* identical to box height */
+        
+        text-align: center;
+        
+        color: #FFFFFF;
+        }
+        
+        .button{
+            display: flex;
+            flex-direction: column;
+        }
+        .button .login{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 21px;
+            /* identical to box height */
+            
+            text-align: center;
+            
+            color: #424D65;
+            padding: 20px 0;
+            border: solid 1px  #04A8FF;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+        .button .signin{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 21px;
+            /* identical to box height */
+            height: 40px;
+            text-align: center;
+        
+            color: #04A8FF;
+            background: #DEF4FE;
+            border-radius: 8px;
+            padding: 20px 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        
+        }
+        .fulllogo{
+            display: none;
+        }
+
+        .menu {
+        display: none !important;
+        height: 0;
+        width: 0;
+        
+        }
+        .nav-toggle:hover ~ .menu{
+            display: flex !important;
+            
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            background-color: #D0E5F2;
+            position: absolute;
+            z-index: 20;
+            height: 500px;
+            padding: 20px 0;
+        }
+        .nav-toggle:hover ~ .nav-bar{
+            background-color:#D0E5F2 !important;
+        }
+
+        
+        
+
+}

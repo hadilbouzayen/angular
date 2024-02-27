@@ -1,0 +1,467 @@
+header{
+    width: 100%;
+    overflow-x: hidden;
+    box-sizing: border-box; 
+    height: 130vh;
+}
+.holder{
+    background-color: #F3F8FF;
+    height: calc(100vh - 50px);
+    padding-top: 25px;
+    padding-left: 35px;
+    padding-right: 35px;
+    position: relative;
+}
+.hero-page {
+    display:grid;
+    grid-template-columns: 50% 50%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+
+}
+
+.hero-text{
+    
+    display: flex;
+    padding:80px 50px ;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.holder .text1{
+    font-family: 'Seaweed Script', cursive;
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 50px;
+/* identical to box height, or 100% */
+
+
+color: #00ACFF;
+}
+.holder .text2{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 85px;
+line-height: 90px;
+/* or 106% */
+
+
+color: #292E37;
+}
+.holder .text3{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 26px;
+/* or 186% */
+
+
+color: #525D73;
+}
+.holder .buttons{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.holder .buttons .start-btn{
+    
+    background: linear-gradient(90.05deg, #45BFFF 27.8%, #00A7FF 98.65%);
+    box-shadow: 0px 24px 30px -16px rgba(45, 183, 255, 0.25);
+    border-radius: 8px;
+    width: 190px;
+    height: 62px;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 14px;
+/* identical to box height, or 100% */
+
+text-align: center;
+
+color: #FFFFFF;
+display: flex;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+}
+.holder .buttons .watch-btn{
+    width: 223px;
+    height: 62px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 14px;
+    /* identical to box height, or 100% */
+    color: #19B0FF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    
+}
+
+.Dashboard{
+    position: absolute;
+}
+
+.mockup-bg{
+    
+    position: absolute;
+    top: 70%;
+    right: 0px;
+
+    
+}
+
+
+.about-us{
+    height: 70vh;
+}
+.about-us .title{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+
+letter-spacing: 0.125em;
+color: #10ADFF;
+padding-left: 80px;
+
+height: fit-content;
+
+}
+.about-us .btn-holder{
+   display: flex;
+   justify-content: center;
+   align-items:flex-start;
+}
+.about-us .view-btn{
+    width: 160.79px;
+height: 63.75px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 14px;
+/* identical to box height, or 100% */
+
+color: #19B0FF;
+background-image: url("../assets/images/bg_lines.png");
+
+display: flex;
+align-items: center;
+justify-content: center;
+cursor: pointer;
+
+}
+
+.about-us .text1{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 58px;
+/* or 116% */
+letter-spacing: 0.01em;
+color: #292E37;
+padding-left: 80px;
+
+}
+.about-us .options-holder{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about-us .option {
+    width: 364px;
+    height: 169px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins';
+    font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 28px;
+/* identical to box height, or 100% */
+
+
+color: #292E37;
+    
+}
+.about-us .option img{
+    height: 45px;
+    width: 45px;
+}
+.about-us .option .im-holder{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.about-us .cheaper{
+    background-image: url("../assets/images/bg_outlines.png");
+    background-repeat: no-repeat;
+    
+
+}
+.about-us  .faster .im-holder{
+    background-color: #00D9FF;
+    box-shadow: 0px 20px 35px -20px rgba(0, 192, 225, 0.4);
+}
+.about-us .cheaper .im-holder{
+    background-color: #FF5600;
+    box-shadow: 0px 30px 35px -20px rgba(250, 84, 0, 0.3);
+}
+.about-us .chat .im-holder{
+    background: #FFC700;
+    box-shadow: 0px 20px 35px -20px rgba(250, 195, 0, 0.4);
+}
+.Educa-std{
+padding: 0 60px;
+margin-bottom: 50px;
+
+}
+.Educa-std .title{
+    height: 60vh;
+    padding: 40px 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 85px;
+    line-height: 90px;
+    /* or 106% */
+    text-align: center;
+    letter-spacing: -0.01em;
+    
+    color: #2A2E36;
+}
+.Educa-std .text1{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 42px;
+line-height: 52px;
+/* or 124% */
+
+
+color: #292E37;
+}
+
+.Educa-std .text2{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 26px;
+/* or 186% */
+
+letter-spacing: -0.01em;
+
+color: #525D73;
+}
+.Educa-std .buttons{
+    margin-top: 30px;
+    width: 365px;
+    height: 96px;
+    display: flex;
+    align-items:center ;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 132.5%;
+/* identical to box height, or 24px */
+
+}
+.Educa-std .buttons .b{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Educa-std .buttons :first-child{
+    height: 100%;
+    width: 50%;
+    border-radius: 25px 0 0 25px;
+    background: #F5F7FF;
+    color: #001CAF;
+
+
+}
+.Educa-std .buttons :last-child{
+    height: 100%;
+    width: 50%;
+    background: #001CAF;
+    border-radius:  0 25px 25px 0;
+    color: #FFFFFF;
+   
+}
+
+.features{
+    display: flex;
+    justify-content: space-between;
+}
+.las-holder{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.last{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 550px;
+    text-align: center;
+}
+
+
+.b2{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.holder .b2 .start-btn{
+    
+    background: linear-gradient(90.05deg, #45BFFF 27.8%, #00A7FF 98.65%);
+    box-shadow: 0px 24px 30px -16px rgba(45, 183, 255, 0.25);
+    border-radius: 8px;
+    width: 190px;
+    height: 62px;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 14px;
+
+/* identical to box height, or 100% */
+
+text-align: center;
+
+color: #FFFFFF;
+display: flex;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+margin-right: 20px;
+}
+.holder .b2 .watch-btn{
+    width: 223px;
+    height: 62px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 14px;
+    /* identical to box height, or 100% */
+    color: #19B0FF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.footer-holder{
+    background-color: #F3F8FF;
+    height: 50vh;
+    padding-top: 25px;
+    padding-left: 35px;
+    padding-right: 35px;
+
+}
+.footer-holder .heading{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    /* identical to box height */
+    color: #3D475E;
+}
+.footer-holder .ts1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    /* or 214% */
+
+
+    color: #4A556D;
+}
+
+.footer-holder .send-mail{
+    width: 234px;
+    max-height: 45px;
+    background: #E0EDFF;
+    border: 1px solid #CCDBF1;
+    border-radius: 4px;
+    padding:  0 ;
+    margin-top: 20px;
+
+}
+.send-mail input{
+    height: 45px; 
+    background-color: transparent;
+    border: none;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+
+
+color: #7A8398;
+}
+.send-mail button{
+    height: 45px;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+}
+.t3{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 14px;
+/* identical to box height, or 100% */
+
+letter-spacing: 0.6em;
+
+color: #594D43;
+}
+.t4{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 40px;
+/* identical to box height, or 133% */
+
+letter-spacing: -0.02em;
+
+color: #2A2E36;
+}

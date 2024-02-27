@@ -1,0 +1,178 @@
+<header>
+<div class="holder">
+  <app-navbar></app-navbar>  
+  <img class="mockup-bg" src="../assets/images/mockup-bg.png" alt="">
+<div class="hero-page  ">
+ 
+  <div class="hero-text ">
+    <div class="elem text1">
+      E-Learning
+    </div>
+    <div class="elem text2">Dream big Do right.</div>
+    <div class="elem text3">Slite helps remote teams share ideas, save knowledge, and work together anytime, any place.</div>
+    <div class="elem buttons">
+      <div class="start-btn">Get Started Now</div>
+      <div class="watch-btn">
+        <img src="../assets/images/play-icon.png" alt="">
+        <div class="">Watch our platform!</div>
+      </div>
+    </div>
+  </div>
+  <div class="row-6 resp-im">
+    <img class="Dashboard" src="../assets/images/Dashboard.png" alt="">
+    <img class="mobile" src="../assets/images/Mobile Screen.png" alt="">
+  </div>
+</div>
+</div>
+
+</header>
+<section class="about-us row">
+  <div class="col-md-12 col-sm-12  title">
+    ABOUT US
+  </div>
+  <div class="col-md-12 col-sm-12  row ">
+    <div class="col-md-6 text1">Get Started With Educa Studya.</div>
+    <div class="col-md-6 btn-holder">
+      <div class=" view-btn">View all <img src="../assets/images/Vector.png" alt=""></div>
+    </div>
+  </div>
+  <div class="col-md-12 col-sm-12  options-holder " >
+     <div class="option faster ">
+      <div class="im-holder">
+        <img src="../assets/images/energy.png" alt="">
+      </div>
+      
+      <span>Faster</span>
+     </div>
+     <div class="option cheaper ">
+      <div class="im-holder">
+        <img src="../assets/images/decrease.png" alt="">
+      </div>
+      
+      <span>Cheaper</span>
+     </div>
+     <div class="option chat ">
+      <div class="im-holder">
+        <img src="../assets/images/chat.png" alt="">
+      </div>
+
+      <span>At hand</span>
+     </div>
+  </div>
+</section>
+<section class="Educa-std">
+  <div class="title">Educa Studya Features</div>
+  <div class=" row">
+    <div class="col-md-6 col-sm-12">
+      <img src="../assets/images/Icon.png" alt="">
+      <div class="text1">Where collaboration meets knowledge</div>
+      <div class="text2">Dive into a doc together and express your first ideas, get feedback, map out a plan or write up the final documentation. Compose your most important work, together— no matter where you are in the world.</div>
+    </div>
+    <div class="col-md-6 m-0 p-0 ml-4 col-sm-12 ref-im" >
+      <img src="../assets/images/Mockup.png" alt="" >
+    </div>
+  </div>
+
+
+  <div class=" row middlesec .d-sm-flex flex-column-sm-reverse">
+    <div class="col-md-8 m-0 p-0 ml-4 col-sm-12 ref-im" >
+      <img src="../assets/images/Mockpu2.png" alt="" >
+    </div>
+    <div class="col-md-4 mt-5 col-sm-12 .d-sm-flex  .flex-column">
+      <img src="../assets/images/Icon2.png" alt="">
+      <div class="text1">Get Started With Our Basic plan</div>
+      <div class="text2">This A-Z guide offers a series of simple, bite-sized explainers to help anyone understand what AI is, how it works and how it’s changing the world around us.</div>
+      <div class="buttons">
+        <div class="b">Monthly</div>
+        <div class="b">Yearly</div>
+      </div>
+    </div>
+
+  </div>
+  <div class=" row">
+    <div class="col-md-6 col-sm-12">
+      <img src="../assets/images/Icon.png" alt="">
+      <div class="text1">Where collaboration meets knowledge</div>
+      <div class="text2">Dive into a doc together and express your first ideas, get feedback, map out a plan or write up the final documentation. Compose your most important work, together— no matter where you are in the world.</div>
+    </div>
+    <div class="col-md-6 m-0 p-0 ml-4 col-sm-12 ref-im" >
+      <img src="../assets/images/Mockup.png" alt="" >
+    </div>
+  </div>
+
+  <div class="title">Featured</div>
+  <div class="features">
+
+    <app-card *ngFor="let card of cardData" [imageSrc]="card.imageSrc" [title]="card.title" [description]="card.description"></app-card>
+
+  </div>
+  
+
+</section>
+<section class="Newsletter">
+  <div class="holder las-holder">
+    <div class=" last">
+      <div class=" text2">Get Started With 7 Days</div>
+      <div class="text3">Slite helps remote teams share ideas, save knowledge, and work together anytime, any place.</div>
+      <div class=" b2">
+        <div class="start-btn">Get a Demo</div>
+        <div class="watch-btn">
+          <img src="../assets/images/play-icon.png" alt="">
+          <div class="">Watch our platform!</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+<footer>
+  <div class="footer-holder">
+    <div class="row">
+      <div class="col-md-4 col-sm-12" >
+        <div class="col-md-2"><img src="../assets/images/Logo.png" alt=""></div>
+        <div class="col-md-12 mt-5 ">
+          <div class="t3">CONTACT</div>
+          <div class="t4">email@gmail.com</div>
+        </div>
+      </div>
+
+      
+      <div class="col-md-8 col-sm-12">
+        <div class="row">
+          <div class="col">
+            <div class="col heading">Navigation</div>
+            <div class="col ts1">About</div>
+            <div class="col ts1">Course</div>
+            <div class="col ts1">Teachers</div>
+            <div class="col ts1">Pricing</div>
+          </div>
+
+          <div class="col">
+            <div class="col heading">Resources</div>
+            <div class="col ts1">Blog</div>
+            <div class="col ts1">News Updates</div>
+          </div>
+          <div class="col ">
+            <div class="col heading">Stay up to date</div>
+            <div class="col ts1">Stay Informed On How You Can Make a Difference</div>
+            <div class="col ts1">
+              <div class="send-mail row">
+                <input class="col-9"  type="email " placeholder="Your email address" name="" id="">
+                <button class="col-3 "><img src="../assets/images/send.png" alt=""></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row d-flex justify-content-center mt-5">
+      <img src="../assets/images/ligne.png" alt="">
+    </div>
+    <div class="row d-flex justify-content-center mt-5">
+      © 2021 All Rights Reserved -  Educa.agency
+    </div>
+  </div>
+</footer>
+
+<router-outlet></router-outlet>

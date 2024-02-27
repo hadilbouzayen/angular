@@ -1,0 +1,32 @@
+ .card{
+    width: 363px;
+    height: 415px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 30px;
+
+}
+.card .t1{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 132.5%;
+/* identical to box height, or 32px */
+
+
+color: #2A2E36;
+}
+.card .t2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    /* or 186% */
+    
+    
+    color: #525D73;
+}

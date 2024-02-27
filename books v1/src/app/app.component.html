@@ -1,0 +1,16 @@
+<header>
+    <ng-container *ngIf="!isBookDetailsRoute()">
+    <app-add-book-form (bookAdded)="onBookAdded($event)"></app-add-book-form> 
+
+      <div class="books-holder">
+        <div class="" *ngFor="let book of addedBooks">
+          <app-book-card [bookTitle]="book.title" [bookParagraph]="book.paragraph " [bookId]="book.id" ></app-book-card>
+        </div>
+      </div>
+
+    </ng-container>
+   </header>
+<router-outlet>
+
+
+</router-outlet>
